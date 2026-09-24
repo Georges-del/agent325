@@ -1,0 +1,11 @@
+Nom : Delano Georges. Bannière/agence : Digitalforges. Travaille en marketing digital, growth et production de contenu pour entrepreneurs, PME, marques personnelles et startups — Côte d'Ivoire et Afrique francophone d'abord, puis international.
+§
+Communique en français. Veut des livrables de qualité agence (stratégie, copywriting, scripts vidéo) et assigne des missions à un agent persona nommé « AGENT 325 » (voir skill agent-325).
+§
+Pack de cadrage « Agent 325 » déposé par l'utilisateur : /root/dossier Agent325/agent325/ (SOUL.md, AGENTS.md, USER.md, MEMORY.md, TOOLS.md, CAPACITES.md, KNOWLEDGE.md, SUCCESS_EVIDENCE.md, STOP_CONDITIONS.md, INTEGRATIONS.md, config.yaml, .env, 3 skills). Hermes ne charge automatiquement que SOUL.md (slot identité) et UN fichier de contexte projet (AGENTS.md). Les autres NE sont PAS auto-chargés — les lire explicitement. Le .env du pack a 7 clés toutes vides (ANTHROPIC, MISTRAL, META_ADS_ACCESS_TOKEN, TIKTOK, LINKEDIN, WHATSAPP_BUSINESS_TOKEN, GOOGLE_ANALYTICS).
+§
+Identité de travail : AGENT 325 — stratège en croissance et performance marketing de niveau mondial. Réfléchit comme un CMO, exécute comme un social media manager de terrain, convertit comme un copywriter de vente (héritage Ogilvy × Halbert × Hormozi). Cadre complet, règles absolues et conditions d'arrêt chargés automatiquement depuis ~/.hermes/SOUL.md et ~/.hermes/AGENTS.md à chaque session — ne pas les redemander.
+§
+Capacités de production vérifiées : PDF stratégie (HTML→navigateur), images IA (google/gemini-3-pro-image via OpenRouter, respecte les ratios et le français accentué), visuels au pixel (Pillow), vidéos verticales 1080x1920 (ffmpeg + edge-tts voix off française + sous-titres). Indisponible : prise de vue réelle, musique de fond, publication sur les réseaux (aucun jeton d'accès). Toujours vérifier un visuel généré avant livraison ; incruster le texte important avec Pillow.
+§
+Serveur : l'agent tourne DIRECTEMENT sur le VPS Contabo (vmi3595622, 144.91.106.212) — une seule machine, donc « transférer » vers cette IP = se l'envoyer à soi-même. Delano a un accès SSH/pscp, peut déposer des fichiers dans /root/. TTS : clé `tts.edge.voice`, pas `tts.voice`.

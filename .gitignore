@@ -1,0 +1,31 @@
+# Secrets — jamais dans le depot
+.env
+*.env
+!.env.example
+**/secrets/
+**/credentials.json
+**/*service-account*.json
+**/*.pem
+**/*.key
+**/id_rsa*
+**/id_ed25519*
+
+# Donnees clients — confidentielles
+memories/clients/
+**/clients/*.md
+!skills/**/clients/
+
+# Sorties de production
+*.mp4
+*.mov
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+**/work/
+**/work_*/
+**/*_work/
+__pycache__/
+*.pyc
+.DS_Store
